@@ -1,31 +1,29 @@
 {
   "expo": {
-    "name": "cinema-swipe",
-    "slug": "cinema-swipe",
+    "name": "RecipeSkip",
+    "slug": "recipe-skip",
     "version": "1.0.0",
     "orientation": "portrait",
-    "githubUrl": "https://github.com/jongan69/cinemaswipe",
+    "githubUrl": "https://github.com/jongan69/RecipeSkip",
     "icon": "./assets/images/icon.png",
-    "scheme": "cinema-swipe",
+    "scheme": "recipe-skip",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.jongan69.cinemaswipe"
+      "bundleIdentifier": "com.jongan69.RecipeSkip"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.jongan69.cinemaswipe"
+      "package": "com.jongan69.RecipeSkip"
     },
     "web": {
       "bundler": "metro",
@@ -39,9 +37,7 @@
         ]
       }
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
     },
@@ -51,13 +47,7 @@
     "extra": {
       "router": {
         "origin": false
-      },
-      "eas": {
-        "projectId": "bf8470d0-802b-4fc4-8768-ea749c83adc2"
       }
-    },
-    "updates": {
-      "url": "https://u.expo.dev/bf8470d0-802b-4fc4-8768-ea749c83adc2"
     }
   }
 }

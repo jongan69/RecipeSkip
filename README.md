@@ -1,4 +1,4 @@
-# Cinema Swipe
+# Recipe Skip
 
 [![jongan69 - cinemaswipe](https://img.shields.io/static/v1?label=jongan69&message=cinemaswipe&color=blue&logo=github)](https://github.com/jongan69/cinemaswipe "Go to GitHub repo")
 

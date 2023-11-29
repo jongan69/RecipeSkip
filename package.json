@@ -1,8 +1,8 @@
 {
-  "name": "cinema-swipe",
+  "name": "recipeskip",
   "main": "./index.ts",
   "version": "1.0.0",
-  "homepage": "https://jongan69.github.io/cinemaswipe",
+  "homepage": "https://jongan69.github.io/RecipeSkip",
   "scripts": {
     "start": "expo start --go",
     "android": "expo start --android",
