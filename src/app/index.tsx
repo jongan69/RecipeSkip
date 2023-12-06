@@ -15,8 +15,7 @@ import FacebookSVG from "../../assets/images/facebook.svg";
 import CustomButton from '../components/CustomButton';
 import InputField from '../components/InputField';
 import CustomSwitch from '../components/CustomSwitch';
-import { Card } from '@ui-kitten/components';
-
+import { Card } from '@rneui/themed';
 import * as appData from '../../app.json'
 
 export default function SignInScreen() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Icon } from '@ui-kitten/components';
+import { Button, Icon } from '@rneui/themed';
 
-const renderIcon = ({ name, style }: any) => (
+const renderIcon = ({ name, style }) => (
   <Icon {...style} name={name} />
 );
 
@@ -13,7 +13,7 @@ const ButtonWithIcon = ({
   onPress,
   text,
   style,
-}: any) => {
+}) => {
   const ButtonIcon = () => renderIcon({ name: icon, style: iconStyle });
   return (
     <Button

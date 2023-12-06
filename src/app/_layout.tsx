@@ -14,13 +14,6 @@ import themes from "../theme/Themes";
 import { SessionProvider } from '../auth/ctx';
 import { MagicTools } from "../auth/magicSdk";
 
-import {
-  ApplicationProvider,
-  IconRegistry,
-} from "@ui-kitten/components";
-import { EvaIconsPack } from "@ui-kitten/eva-icons";
-import * as eva from "@eva-design/eva";
-
 import useCachedResources from "../resources/hooks/useCachedResources";
 import WebNavbar from "../components/web/Navbar.web";
 
@@ -79,11 +72,7 @@ export default function Root() {
       <MagicTools>
         <ThemeProvider value={themeName === "light" ? DefaultTheme : DarkTheme}>
           <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            {/* // Removing these wrapper would fix web refresh / hydration issues */}
-            <IconRegistry icons={EvaIconsPack} />
-            <ApplicationProvider {...eva} theme={theme}>
               <Slot />
-            </ApplicationProvider>
           </ThemeContext.Provider>
         </ThemeProvider>
       </MagicTools>

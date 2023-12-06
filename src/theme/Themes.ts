@@ -1,11 +1,11 @@
-import { light, dark } from "@eva-design/eva";
+// import { light, dark } from "@eva-design/eva";
 
 const tintColorLight = '#2f95dc';
 const tintColorDark = '#fff';
 
 const Themes = {
   light: {
-    theme: light,
+    theme: "light",
     title: "LIGHT",
     icon: "sun",
     text: '#000',
@@ -15,7 +15,7 @@ const Themes = {
     tabIconSelected: tintColorLight,
   },
   dark: {
-    theme: dark,
+    theme: "dark",
     title: "DARK",
     icon: "moon",
     text: '#fff',
